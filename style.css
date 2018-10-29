@@ -14,10 +14,10 @@ main {
 
 
 .banner {
-	background-image: url(images/web-design.jpg);
+	background-image: url(images/technology.jpg);
 	background-position: center, center;
 	background-size: cover;
-	height: 100vh;
+	height: 600px;
 	padding-top: 1px; /* annuler le débordement des marges */
 }
 
@@ -41,13 +41,61 @@ color:white;
 
 
 .competences div {
-	border: solid 15px #04122f;
+	border: solid 5px;
 	border-radius: 10px;
 }
 
 
+.fa-html5 {
+
+	color: #f2672e;
+	transition: color 1s ease-in-out;
+}
+
+
+.fa-html5:hover {
+	color: #e65127;
+}
+
+
+
+.fa-css3-alt {
+
+	color: #30aadd;
+	transition: color 1s ease-in-out;
+
+}
+
+
+.fa-css3-alt:hover {
+	color: #0c73b8;
+}
+
+
+.fa-js-square {
+	color: #f2bf26;
+	transition: color 1s ease-in-out;
+
+
+}
+
+
+.fa-js-square:hover {
+	color: #e7a328;
+
+
+}
+
+
+
 .card {
 	border-radius: 10px;
+	transition: box-shadow .4s ease-in-out;
+}
+
+.card:hover {
+		box-shadow: 1px 1px 10px rgba(0,0,0,0.15);
+
 }
 
 
@@ -56,3 +104,7 @@ color:white;
 
 }
 
+.formulaire-contact button[type="submit"] {
+	letter-spacing: 1px;
+
+}
