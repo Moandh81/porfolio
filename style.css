@@ -1,0 +1,58 @@
+.nav-link {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+ 
+}
+
+
+main {
+
+
+	background-color: #f7f7f7;
+}
+
+
+
+.banner {
+	background-image: url(images/web-design.jpg);
+	background-position: center, center;
+	background-size: cover;
+	height: 100vh;
+	padding-top: 1px; /* annuler le débordement des marges */
+}
+
+.banner h1 {
+	text-transform: uppercase;
+	font-family: 'Montserrat', sans-serif;
+	color:white;
+	font-weight: 700;
+	letter-spacing: 5px;
+
+
+}
+
+
+.banner p {
+
+font-family: 'Montserrat', sans-serif;
+color:white;
+
+}
+
+
+.competences div {
+	border: solid 15px #04122f;
+	border-radius: 10px;
+}
+
+
+.card {
+	border-radius: 10px;
+}
+
+
+.formulaire-contact {
+	font-family: 'Montserrat', sans-serif;
+
+}
+
