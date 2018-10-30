@@ -40,6 +40,9 @@ color:white;
 
 }
 
+.competences  .mes_realisations {
+	border-bottom: 2px solid black;
+}
 
 .competences div {
 	border: solid 5px;
@@ -92,12 +95,26 @@ color:white;
 .card {
 	border-radius: 10px;
 	transition: box-shadow .4s ease-in-out;
+	overflow: hidden;
 }
 
 .card:hover {
 		box-shadow: 1px 1px 10px rgba(0,0,0,0.15);
 
 }
+
+.card-img-top {
+	transition: transform 1s ease-in-out;
+	
+}
+
+.card-img-top:hover {
+	transform: scale(1.2);
+}
+
+.card-body {
+	overflow: hidden;
+} 
 
 
 .formulaire-contact {
