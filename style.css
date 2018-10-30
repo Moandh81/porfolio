@@ -1,3 +1,9 @@
+html {
+  scroll-behavior: smooth;
+}
+
+
+
 .nav-link {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 20px;
@@ -112,9 +118,6 @@ color:white;
 	transform: scale(1.2);
 }
 
-.card-body {
-	overflow: hidden;
-} 
 
 
 .formulaire-contact {
